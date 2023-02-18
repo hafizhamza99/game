@@ -1,0 +1,798 @@
+* {
+    box-sizing: border-box;
+}
+.bg1{
+    background-image: url(Images/bg1.webp);
+    background-size: cover;
+    height: 78vh!important;
+    background-size: 50% 100%;
+    background-position: 140%;
+    background-repeat: no-repeat;
+}
+.myiconimg{
+    position: relative;
+    bottom: 5px;
+}
+
+.p1{
+    font-size: 2.1rem;
+    padding-top: 138px;
+    font-weight: 300;
+    margin-left: 47px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    color: black;
+    padding-left: 0.5rem;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar-brand .logo{
+    position: relative;
+    top: -6px;
+    left: 5px;
+}
+.navbar{
+    box-shadow: 0 0.2rem 1rem rgb(0 0 0 / 12%);
+    height: 65px;
+}
+.loginicon{
+    padding: 10px 16px;
+    border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;    
+}
+.navbar-brand{
+    color: #e21b70;
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.navbar-brand:hover{
+    color: #e21b70;
+}
+.srch{
+    box-shadow: 0 0.3rem 2rem rgb(0 0 0 / 10%);
+    margin-top:70px;
+    padding: 20px;
+    width: 90%;
+    margin-left: 74px;
+}
+.bg-my{
+  
+  color: #fff;
+  background-color: #e21b70;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  padding: 5px 7px;
+  font-size: 13px;
+  width: 25px;
+}
+.searchbar{
+    position: relative;
+     padding-top: 20px;
+     padding-bottom: 18px;
+     padding-left: 17px;
+     width: 55%;
+}
+.btn-srch{
+    margin-left: 11px;
+    width: 20%;
+    border-radius: 8px;
+    position: relative;
+    background-color: #e21b70;
+    border-color: #e21b70;
+    color: white;
+    font-weight: 600;
+}
+.btn-srch:hover{
+   background-color: #fdf2f7;
+   border-color: #fdf2f7;
+   color: #e21b70;
+   transition: 0.3s;
+   font-weight: 700;
+}
+.srchp{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+}
+.p2{
+   margin-top: 150px;
+
+}
+.p2 p{
+    top: 575px;
+    color: #333333;
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    font-weight: 300;
+    left: 0;
+    line-height: 1.25em;
+    margin: 0;
+    margin-left: 48px;
+    position: absolute;
+}
+.p2 h1{
+    color: rgba(0,0,0,.04);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 48px;
+    margin-top: -90px;
+    text-align: left;
+}
+.bg-wall
+{
+    background-image: url(Images/bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 40px;
+ height: 404px;
+ background-position: 50%;
+ background-repeat: no-repeat;
+}
+.bg2bx{
+    position: relative;
+    left: 48px;
+    top: 130px;  
+    padding: 24px;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    width: 436px;
+}
+.b2p1{
+    font-weight: 300;
+    line-height: 1.2em;
+    margin: 0;
+    color: #333333;
+    font-size: 1.6rem;
+}
+.b2p2{
+    margin: 16px 0 24px;
+    padding-top: 12px;
+    color: #767676;
+}
+.bg3bx{
+    position: relative;
+    left: 48px;
+    top: 235px;  
+    padding: 24px;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 12%);
+    background-color: white;
+    width: 436px;
+}
+.b3p1{
+    font-weight: 300;
+    line-height: 1.2em;
+    margin: 0;
+    color: #333333;
+    font-size: 1.6rem;
+}
+.b3p2{
+    margin: 16px 0 24px;
+    padding-top: 12px;
+    color: #767676;
+}
+.my-btn{
+    background-color: #e21b70;
+    border-color: #e21b70;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    transition: 0.3s;
+}
+.my-btn:hover{
+    background-color: #fdf2f7;
+    border-color: #fdf2f7;
+    color: #e21b70;
+}
+.citi p{
+    color: #333333;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.25em;
+    margin-left: 45px;
+    position: relative;
+    bottom: 65px;
+}
+.citi h1{
+    color: rgba(0,0,0,.04);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 45px;
+    margin-top: 208px;
+    text-align: left;
+}
+.project{
+    position: relative;
+    overflow: hidden;
+    left: 45px;
+    position: relative;
+    bottom: 95px;
+}
+.project .overlay{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.city{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.city .city-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.city .city-content:hover{
+    transform: scale(1.06);
+}
+.city .city-content .citycard{
+    background-image: url(Images/Karachi.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 95px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard2{
+    background-image: url(Images/Lahore.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard2 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard2 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 120px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard2:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard3{
+    background-image: url(Images/Islamabad.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard3 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard3 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 145px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard3:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard4{
+    background-image: url(Images/Rawalpindi.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard4 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard4 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 92px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard4:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard5{
+    background-image: url(Images/Faisalabad.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard5 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard5 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 118px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard5:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard6{
+    background-image: url(Images/Multan.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard6 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard6 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 35px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard6:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard7{
+    background-image: url(Images/Hyderabad.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard7 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard7 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 70px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard7:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard8{
+    background-image: url(Images/Sialkot.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard8 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard8 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 100px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard8:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard9{
+    background-image: url(Images/Peshawar.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard9 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard9 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 100px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard9:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard10{
+    background-image: url(Images/Sukkur.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard10 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard10 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 100px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard10:hover .alphabat{
+   opacity: 0.5;
+}
+.city .city-content .citycard11{
+    background-image: url(Images/city-tile-Murree.webp);
+    background-size: cover;
+    background-position: center;
+    transition: transform .3s;
+    height:280px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+}
+.city .city-content .citycard11 h2{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+    z-index: 1000;
+}
+.city .city-content .citycard11 .alphabat{
+ position: absolute;
+ top: 85px;
+ right: 30px;
+ font-size: 12em;
+ color: #ff2b85;
+ font-weight: 700;
+ opacity: 0;
+ z-index: 999;
+ transition-duration: 0.3s;
+}
+.city .city-content .citycard11:hover .alphabat{
+   opacity: 0.5;
+}
+.my-row{
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    bottom: 90px;
+}
+.p3{
+    margin-top: 150px;
+ 
+ }
+ .p3 p{
+        color: #333333;
+        display: block;
+        font-size: 1.3rem;
+        font-weight: 300;
+        left: 51px;
+        line-height: 1.25em;
+        margin: 0;
+        position: relative;
+        bottom: 68px;
+ }
+ .p3 h1{
+     color: rgba(0,0,0,.04);
+     font-size: 6rem;
+     font-weight: 700;
+     line-height: 1em;
+     margin-left: 48px;
+     margin-top: -90px;
+     text-align: left;
+ }
+ .bg-app{
+    background-image: url(Images/mobile.png);
+    background-size: cover;
+    background-size: 50% 100%;
+    background-position: 110%;
+    height: 50vh;
+    background-repeat: no-repeat;
+ }
+ .appdetail{
+    background-color: #e21b70;
+    color: white;
+    width: 100%;
+    padding-left: 48px;
+    padding-right: 48px;
+    height: 370px;
+    position: relative;
+    bottom: 61px;
+ }
+.appdetail h2{
+    font-weight: 300;
+    line-height: 1.25em;
+    padding-top: 48px;
+}
+.appdetail p{
+padding-top: 48px;
+font-size: 1.1rem;
+font-weight: 300;
+line-height: 1.25em;
+}
+.bg3{
+    background-image: url(Images/bg3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 65px;
+ height: 404px;
+ background-position: 50%;
+ background-repeat: no-repeat;
+}
+.p3 p{
+    color: #333333;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.25em;
+    position: relative;
+    bottom: 74px;
+}
+.p3 h1{
+    color: rgba(0,0,0,.04);
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 48px;
+    margin-top: -90px;
+    text-align: left;
+}
+.rowmy{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.readmore{
+    color: #444;
+    padding: 30px 18px;
+    text-decoration: none;
+}
+.footermenu{
+    margin-left: 200px;
+    width: 220px;
+    position: relative;
+    line-height: 30px;
+    float: left;
+}
+.footermenu a{
+    color: #333333;
+    text-decoration: none;
+}
+footer p{
+    position: relative;
+    top: 45px;
+}
+.footermenu1{
+    margin-left: 444px;
+    position: relative;
+    line-height: 30px;
+}
+.footermenu1 a{
+    color: #333333;
+    text-decoration: none;
+}
+.footermenu2{
+    margin-left: 677px;
+    position: relative;
+    bottom: 240px;
+    line-height: 30px;
+    margin-bottom: -198px;
+}
+.footermenu2 a{
+    color: #333333;
+    text-decoration: none;
+}
+.footerend {
+   margin-left:50px;
+    padding-top: 32px;
+    position: relative;
+    padding-bottom:90px ;
+    float: left;
+}
+.footerend a{
+    color: #666;
+    text-decoration: none;
+    border-right:1px solid #666;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footerend .bang{
+  margin-left: 370px;
+  border:0;
+}
+.footerstart{
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+}
+.rowmy .h2{
+    margin-top: 140px;
+}
+.rowmy strong{
+    color: #333333;
+}
+.rowmy p{
+    color: #333333;
+}
+.orderdetail{
+    line-height: 28px;
+    margin-left: 35px;
+}
+.footerlogo{
+    padding: 40px 0;
+    border-top:1px solid #ebebeb;
+}
+.appdetail img{
+    margin-top: 40px;
+}
